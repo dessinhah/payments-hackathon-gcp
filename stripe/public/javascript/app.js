@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-const STRIPE_PUBLISHABLE_KEY = '<YOUR STRIPE PUBLISHABLE KEY>';
+const STRIPE_PUBLISHABLE_KEY = 'pk_test_51HFhGDKkz7lDEFSmRkk1HDG8Ful2wsJMM2MNBmy2Fpuc359zJf7EjEXdGsXRabJJ0VamaGJLVNBtLYXzhTu7ghVy00ivp0f3oi';
 let currentUser = {};
 let customerData = {};
 

@@ -40,6 +40,7 @@ exports.createStripeCustomer = functions.auth.user().onCreate(async (user) => {
     customer_id: customer.id,
     setup_secret: intent.client_secret,
   });
+  console.log("created customer id");
   return;
 });
 
